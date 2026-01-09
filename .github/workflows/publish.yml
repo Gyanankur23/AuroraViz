@@ -2,13 +2,12 @@ name: Publish AuroraViz to PyPI
 
 on:
   push:
-    tags:
-      - 'v*.*.*'   # Runs when you push a tag like v0.1.0
+    branches:
+      - main   # runs whenever you push to main
 
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
