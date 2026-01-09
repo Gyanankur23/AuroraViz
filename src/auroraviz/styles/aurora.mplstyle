@@ -1,5 +1,3 @@
-# AuroraViz style: minimal ink, strong hierarchy, modern palette
-
 axes.facecolor : white
 figure.facecolor : white
 
@@ -21,6 +19,10 @@ axes.titlesize : 14
 axes.labelsize : 12
 xtick.labelsize : 11
 ytick.labelsize : 11
+xtick.color : black
+ytick.color : black
+axes.labelcolor : black
+axes.titlecolor : black
 
 legend.frameon : False
 legend.fontsize : 11
