@@ -69,6 +69,11 @@ plt.show()
 
 ---
 
+## All Charts Display (Live Proof)
+
+![AuroraViz Light Mode](charts/light.jpg)  
+![AuroraViz Dark Mode](charts/dark.jpg)
+
 ## Showcase PDF
 
 To generate a PDF showcase in Colab:
