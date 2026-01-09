@@ -13,7 +13,7 @@ Run the following single block in Colab to clone the repo, import modules, and g
 
 ```python
 
-!git clone https://github.com/<your-username>/AuroraViz.git
+!git clone https://github.com/Gyanankur23/AuroraViz.git
 import sys
 sys.path.append("/content/AuroraViz/src")
 ```
