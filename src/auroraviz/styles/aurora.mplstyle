@@ -1,13 +1,13 @@
 # AuroraViz style: minimal ink, strong hierarchy, modern palette
 
-axes.facecolor: #FFFFFF
-figure.facecolor: #FFFFFF
+axes.facecolor: '#FFFFFF'
+figure.facecolor: '#FFFFFF'
 
-axes.edgecolor: #DDDDDD
+axes.edgecolor: '#DDDDDD'
 axes.linewidth: 0.8
 axes.grid: True
 axes.grid.axis: y
-grid.color: #CCCCCC
+grid.color: '#CCCCCC'
 grid.alpha: 0.15
 grid.linewidth: 0.8
 
