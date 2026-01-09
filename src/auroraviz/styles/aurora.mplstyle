@@ -1,32 +1,32 @@
 # AuroraViz style: minimal ink, strong hierarchy, modern palette
 
-axes.facecolor: '#FFFFFF'
-figure.facecolor: '#FFFFFF'
+axes.facecolor : white
+figure.facecolor : white
 
-axes.edgecolor: '#DDDDDD'
-axes.linewidth: 0.8
-axes.grid: True
-axes.grid.axis: y
-grid.color: '#CCCCCC'
-grid.alpha: 0.15
-grid.linewidth: 0.8
+axes.edgecolor : lightgray
+axes.linewidth : 0.8
+axes.grid : True
+axes.grid.axis : y
+grid.color : lightgray
+grid.alpha : 0.15
+grid.linewidth : 0.8
 
-axes.spines.top: False
-axes.spines.right: False
+axes.spines.top : False
+axes.spines.right : False
 
-font.family: DejaVu Sans
-font.size: 12
-axes.titleweight: bold
-axes.titlesize: 14
-axes.labelsize: 12
-xtick.labelsize: 11
-ytick.labelsize: 11
+font.family : DejaVu Sans
+font.size : 12
+axes.titleweight : bold
+axes.titlesize : 14
+axes.labelsize : 12
+xtick.labelsize : 11
+ytick.labelsize : 11
 
-legend.frameon: False
-legend.fontsize: 11
+legend.frameon : False
+legend.fontsize : 11
 
-lines.linewidth: 2.2
-lines.markersize: 6
+lines.linewidth : 2.2
+lines.markersize : 6
 
-figure.dpi: 120
-savefig.dpi: 120
+figure.dpi : 120
+savefig.dpi : 120
