@@ -33,3 +33,4 @@ def apply_dark():
     mpl.rcParams['axes.titlecolor'] = 'white'
     mpl.rcParams['legend.labelcolor'] = 'lightgray'
     mpl.rcParams['text.color'] = 'lightgray'
+    mpl.rcParams['axes.edgecolor'] = 'dimgray'
