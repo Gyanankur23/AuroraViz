@@ -25,3 +25,11 @@ def apply_dark():
     STYLE_PATH = Path(__file__).parent / "styles" / "aurora-dark.mplstyle"
     mpl.rcParams.update(mpl.rcParamsDefault)
     plt.style.use(str(STYLE_PATH))
+
+
+    mpl.rcParams['xtick.color'] = 'lightgray'
+    mpl.rcParams['ytick.color'] = 'lightgray'
+    mpl.rcParams['axes.labelcolor'] = 'lightgray'
+    mpl.rcParams['axes.titlecolor'] = 'white'
+    mpl.rcParams['legend.labelcolor'] = 'lightgray'
+    mpl.rcParams['text.color'] = 'lightgray'
