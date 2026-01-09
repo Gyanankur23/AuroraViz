@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auroraviz"
+version = "0.1.0"
+description = "A clean, modern Python visualization library with curated palettes and minimal ink."
+readme = "README.md"
+authors = [{ name = "Gyanankur Baruah" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = ["matplotlib>=3.7", "numpy>=1.24", "pandas>=2.0"]
+keywords = ["visualization", "charts", "matplotlib", "data viz", "design"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+  "Topic :: Scientific/Engineering :: Visualization"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
