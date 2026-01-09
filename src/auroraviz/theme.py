@@ -22,9 +22,9 @@ def set_size(width=8, height=5):
 
 def apply_dark():
     from pathlib import Path
-    STYLE_PATH = Path(__file__).parent / "styles" / "aurora-dark.mplstyle"
+    DARK_STYLE_PATH = Path(__file__).parent / "styles" / "aurora-dark.mplstyle"
     mpl.rcParams.update(mpl.rcParamsDefault)
-    plt.style.use(str(STYLE_PATH))
+    plt.style.use(str(DARK_STYLE_PATH))
 
 
     mpl.rcParams['xtick.color'] = 'lightgray'
