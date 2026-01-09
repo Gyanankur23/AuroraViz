@@ -15,8 +15,6 @@ axes.spines.top : False
 axes.spines.right : False
 axes.spines.left : True
 axes.spines.bottom : True
-axes.spines.left.color : dimgray
-axes.spines.bottom.color : dimgray
 
 font.family : DejaVu Sans
 font.size : 12
@@ -25,19 +23,12 @@ axes.titlesize : 14
 axes.labelsize : 12
 xtick.labelsize : 11
 ytick.labelsize : 11
-xtick.color : lightgray
-ytick.color : lightgray
-axes.labelcolor : lightgray
-axes.titlecolor : white
 
 legend.frameon : False
 legend.fontsize : 11
-legend.labelcolor : lightgray
 
 lines.linewidth : 2.2
 lines.markersize : 6
 
 figure.dpi : 120
 savefig.dpi : 120
-
-text.color : lightgray
