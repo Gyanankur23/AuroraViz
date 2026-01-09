@@ -22,13 +22,18 @@ def set_size(width=8, height=5):
     mpl.rcParams["figure.figsize"] = (width, height)
 
 def apply_dark():
+    import matplotlib as mpl
+    import matplotlib.pyplot as plt
+    from pathlib import Path
+
+    DARK_STYLE_PATH = Path(__file__).resolve().parent / "styles" / "aurora-dark.mplstyle"
     mpl.rcParams.update(mpl.rcParamsDefault)
     plt.style.use(str(DARK_STYLE_PATH))
 
-    # Apply colors programmatically
-    mpl.rcParams['xtick.color'] = 'lightgray'
-    mpl.rcParams['ytick.color'] = 'lightgray'
-    mpl.rcParams['axes.labelcolor'] = 'lightgray'
+    # Force text colors for dark mode
+    mpl.rcParams['axes.labelcolor'] = 'white'
     mpl.rcParams['axes.titlecolor'] = 'white'
-    mpl.rcParams['text.color'] = 'lightgray'
-    mpl.rcParams['axes.edgecolor'] = 'dimgray'
+    mpl.rcParams['xtick.color'] = 'white'
+    mpl.rcParams['ytick.color'] = 'white'
+    mpl.rcParams['text.color'] = 'white'
+    mpl.rcParams['legend.labelcolor'] = 'white'
