@@ -19,3 +19,9 @@ def set_dpi(dpi=120):
 
 def set_size(width=8, height=5):
     mpl.rcParams["figure.figsize"] = (width, height)
+
+def apply_dark():
+    from pathlib import Path
+    STYLE_PATH = Path(__file__).parent / "styles" / "aurora-dark.mplstyle"
+    mpl.rcParams.update(mpl.rcParamsDefault)
+    plt.style.use(str(STYLE_PATH))
