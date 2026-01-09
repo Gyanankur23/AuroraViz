@@ -3,7 +3,6 @@
 axes.facecolor : black
 figure.facecolor : black
 
-axes.edgecolor : dimgray
 axes.linewidth : 0.8
 axes.grid : True
 axes.grid.axis : y
