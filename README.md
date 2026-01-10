@@ -5,6 +5,10 @@ Unlike other libraries, AuroraViz automatically inverts text colors when switchi
 
 ---
 
+## PyPi Official Publication Badge
+
+[![PyPI version](https://img.shields.io/pypi/v/auroraviz.svg)](https://pypi.org/project/auroraviz/)
+
 ## Quick Start in Google Colab
 
 Run the following single block in Colab to clone the repo, import modules, and generate one chart in light mode and one chart in dark mode:
