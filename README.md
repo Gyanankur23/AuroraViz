@@ -1,5 +1,12 @@
 # AuroraViz
 
+
+[![Python Versions](https://img.shields.io/pypi/pyversions/auroraviz.svg)](https://pypi.org/project/auroraviz/)
+[![License](https://img.shields.io/github/license/Gyanankur23/AuroraViz.svg)](https://github.com/Gyanankur23/AuroraViz/blob/main/LICENSE)
+[![Build Status](https://github.com/Gyanankur23/AuroraViz/actions/workflows/publish.yml/badge.svg)](https://github.com/Gyanankur23/AuroraViz/actions)
+[![Downloads](https://img.shields.io/pypi/dm/auroraviz.svg)](https://pypi.org/project/auroraviz/)
+[![GitHub stars](https://img.shields.io/github/stars/Gyanankur23/AuroraViz.svg?style=social&label=Star)](https://github.com/Gyanankur23/AuroraViz)
+
 AuroraViz is a modern Python visualization library with a unique dark/light theme toggle.  
 Unlike other libraries, AuroraViz automatically inverts text colors when switching to dark mode, so your charts are always readable.
 
