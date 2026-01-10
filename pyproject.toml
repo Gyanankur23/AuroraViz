@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "auroraviz"
-version = "0.1.0"
+version = "0.1.1"
 description = "A clean, modern Python visualization library with curated palettes and minimal ink."
 readme = "README.md"
 authors = [{ name = "Gyanankur Baruah" }]
