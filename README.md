@@ -14,7 +14,7 @@ Unlike other libraries, AuroraViz automatically inverts text colors when switchi
 
 ## PyPi Official Publication Badge
 
-[![PyPI version](https://img.shields.io/pypi/v/auroraviz.svg)](https://pypi.org/project/auroraviz/)
+[![PyPI version](https://img.shields.io/pypi/v/auroraviz.svg?cacheBust=1)](https://pypi.org/project/auroraviz/)
 
 ## Quick Start in Google Colab
 
