@@ -7,33 +7,21 @@ name = "auroraviz"
 version = "0.1.1"
 description = "A clean, modern Python visualization library with curated palettes and minimal ink."
 readme = "README.md"
-requires-python = ">=3.9"
-
-# AUTHOR: Includes your email to map this project to your verified PyPI profile
-authors = [
-  { name = "Gyanankur Baruah", email = "gyanankur9@gmail.com" }
-]
-
-# LICENSE: Updated for 2026 (PEP 639). 
-# This string format is now mandatory for "Verified" license status.
+authors = [{ name = "Gyanankur Baruah", email = "gyanankur9@gmail.com" }]
 license = "MIT"
 license-files = ["LICENSE*"]
-
-dependencies = [
-  "matplotlib>=3.7",
-  "numpy>=1.24",
-  "pandas>=2.0"
-]
-
+requires-python = ">=3.9"
+dependencies = ["matplotlib>=3.7", "numpy>=1.24", "pandas>=2.0"]
 keywords = ["visualization", "charts", "matplotlib", "data viz", "design"]
-
 classifiers = [
   "Programming Language :: Python :: 3",
   "Intended Audience :: Developers",
   "Topic :: Scientific/Engineering :: Visualization"
-  # IMPORTANT: Do NOT add "License :: OSI Approved :: MIT License" here.
-  # In 2026, setuptools throws an error if you have both the license string and this classifier.
 ]
 
 [project.urls]
-Homepage = "
+Homepage = "github.com"
+Source = "github.com"
+
+[tool.setuptools.packages.find]
+where = ["src"]
