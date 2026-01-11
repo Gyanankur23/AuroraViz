@@ -7,17 +7,40 @@ name = "auroraviz"
 version = "0.1.1"
 description = "A clean, modern Python visualization library with curated palettes and minimal ink."
 readme = "README.md"
-authors = [{ name = "Gyanankur Baruah" }]
-license = { file = "LICENSE" }
+
+# 1. Verification of Author: Requires email for better registry matching
+authors = [
+  { name = "Gyanankur Baruah", email = "gyanankur9@gmail.com" }
+]
+
+# 2. Verification of License (PEP 639 Standard for 2026)
+# Use a string SPDX identifier instead of a table for "Verified" status
+license = "MIT"
+license-files = ["LICENSE*"]
+
+# 3. Verification of "Requires" Section
 requires-python = ">=3.9"
-dependencies = ["matplotlib>=3.7", "numpy>=1.24", "pandas>=2.0"]
+dependencies = [
+  "matplotlib>=3.7",
+  "numpy>=1.24",
+  "pandas>=2.0"
+]
+
 keywords = ["visualization", "charts", "matplotlib", "data viz", "design"]
+
 classifiers = [
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: MIT License",
   "Intended Audience :: Developers",
   "Topic :: Scientific/Engineering :: Visualization"
 ]
+
+# 4. Verified Repository Links
+# PyPI verified these by checking your Trusted Publishing (OIDC) setup
+[project.urls]
+Homepage = "github.com"
+Source = "github.com"
+Tracker = "github.com/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
