@@ -1,0 +1,33 @@
+# AuroraViz Dark Theme: minimal ink, strong hierarchy, modern palette
+
+axes.facecolor : black
+figure.facecolor : black
+
+axes.linewidth : 0.8
+axes.grid : True
+axes.grid.axis : y
+grid.color : gray
+grid.alpha : 0.2
+grid.linewidth : 0.8
+
+axes.spines.top : False
+axes.spines.right : False
+axes.spines.left : True
+axes.spines.bottom : True
+
+font.family : DejaVu Sans
+font.size : 12
+axes.titleweight : bold
+axes.titlesize : 14
+axes.labelsize : 12
+xtick.labelsize : 11
+ytick.labelsize : 11
+
+legend.frameon : False
+legend.fontsize : 11
+
+lines.linewidth : 2.2
+lines.markersize : 6
+
+figure.dpi : 120
+savefig.dpi : 120
