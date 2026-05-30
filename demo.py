@@ -1,3 +1,4 @@
+"""
 AuroraViz v0.2.0 - Demo Script
 ===============================
 This demonstrates all the features users can experience after pip install auroraviz
@@ -127,3 +128,6 @@ print("• WebGL point-cloud rendering (1M+ points)")
 print("• Unified theme system across all renderers")
 print("• Palette switching and scoped theming")
 print("\nFor full documentation, see README.md")
+
+
+
